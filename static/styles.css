@@ -1,0 +1,101 @@
+/* Set default font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Set title font size and margin */
+  h1 {
+    font-size: 24px;
+    margin: 20px;
+  }
+
+  /* Style for text input form */
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for button */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+/* Set chat container dimensions and margins */
+.chat-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Set chat list dimensions and padding */
+.chat-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+/* Set chat list item styles */
+.chat-item {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+  /* Set chat list item styles */
+  .chat-item-input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(190, 190, 190);
+  }
+
+/* Set user chat item styles */
+.user-item {
+  margin-left: 50%;
+  margin-right: 10px;
+  background-color: #99ff99;
+  text-align: right;
+}
+  
+
+/* Set bot chat item styles */
+.bot-item {
+  margin-left: 10px;
+  margin-right: 50%;
+  background-color: #ffff99;
+  text-align: left;
+}
