@@ -9,7 +9,7 @@ app.config['SECRET_KEY'] = 'secret-key'
 
 socketio = SocketIO(app, cors_allowed_origins='*')
 
-openai.api_key = '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'
+openai.api_key = ''
 
 @app.route('/')
 def home():
